@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetFloat("moveX", change.x);
             myAnimator.SetFloat("moveY", change.y);
             myAnimator.SetBool("moving", true);  
+            
         }
         else
         {
